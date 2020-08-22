@@ -1,6 +1,9 @@
 todoImageUser: jeanflores2c
 todoVersion: "1.0"
 
+services:
+    todoProxy:
+        port: 8080
 replicas:
     todoApiGateway: 2
     todoCacheIngestion: 1
